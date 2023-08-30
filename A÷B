@@ -1,0 +1,7 @@
+#include<stdio.h>
+
+int main(){
+    int A, B;
+    scanf("%d %d", &A, &B);
+    printf("%.12lf", (double)A/(double)B);//소수점 밑자리까지 지정
+}
